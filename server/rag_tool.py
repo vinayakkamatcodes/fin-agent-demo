@@ -8,7 +8,7 @@ from langchain_core.tools import tool
 # --- 1. SETUP API KEY ---
 # (Ensure your real key is here)
 if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyDrvmdabLfwaKFcB_fjdgfVE84kt1b1m0M" # PASTE KEY HERE
+    os.environ["GOOGLE_API_KEY"] = "" # PASTE KEY HERE
 
 # --- 2. SETUP EMBEDDINGS (Updated Model) ---
 # We use the newer 'text-embedding-004' which is more stable
